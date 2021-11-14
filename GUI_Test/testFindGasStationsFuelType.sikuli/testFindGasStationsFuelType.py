@@ -1,0 +1,10 @@
+#Test search gas station in an area with Fuel Type filter
+type("1590833510260.png","Corso Duca degli Abruzzi Turin Piemont Italy")
+wait("list_results.png")
+click(Pattern("correct_result.png").similar(0.85))
+click("1590839778448.png")
+click(Pattern("diesel.png").similar(0.90))
+type("1592126242136.png", "1")
+click("1590833774774.png")
+type(Key.PAGE_DOWN)
+wait("1593506892885.png")
