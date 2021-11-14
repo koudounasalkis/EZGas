@@ -1,0 +1,13 @@
+#Evaluate Correct price
+click("1590742382013.png")
+type(Pattern("1590742441864.png").exact(),"password")
+type(Pattern("1590742843255.png").exact(),"test@gui.it")
+click("1590742463496.png")
+type("1590833510260.png","Corso Duca degli Abruzzi Turin Piemont Italy")
+wait("list_results.png")
+click(Pattern("correct_result.png").similar(0.85))
+click("1590833774774.png")
+type(Key.PAGE_DOWN)
+click(Pattern("1593506560534.png").targetOffset(650,0))
+click("1590833774774-1.png")
+wait("1593506614716.png")
