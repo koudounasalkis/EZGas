@@ -1,0 +1,12 @@
+#Test search gas station in an area with Fuel Type and CarSharing filters
+type("1590833510260.png","Corso Duca degli Abruzzi Turin Piemont Italy")
+wait("list_results.png")
+click(Pattern("correct_result.png").similar(0.85))
+click("1590839778448.png")
+click(Pattern("diesel.png").similar(0.83))
+click("1590839618287.png")
+click("Screenshot_20200529_185857.png")
+type("1592126242136.png", "3")
+click("1590833774774.png")
+type(Key.PAGE_DOWN)
+wait("1593506892885.png")
